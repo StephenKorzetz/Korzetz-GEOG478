@@ -1,6 +1,7 @@
 # WebGISLab
 GEOG 478 Web GIS Lab Repository
 Stephen Korzetz
+Table:-
 |Homeworks          |Labs              |Project         ||
 | :------------: | :------------: | :------: ||
 |[Week1]("C:\TAMU2024\GEOG478WebGIS\Korzetz-GEOG478\Homework\Week1")|[Week1](C:\TAMU2024\GEOG478WebGIS\Korzetz-GEOG478\Lab\Week1)||
