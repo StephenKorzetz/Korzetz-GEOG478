@@ -36,7 +36,10 @@
         <p>Seeking employment in environmental sciences, GIS, or related field starting summer 2024.</p>
     </section>
     <section>
-        <h2>Education</h2><img src="https://brandguide.tamu.edu/assets/img/logos/tam-box-logo.png" alt = "Texas A&M Logo" />
+        <img src="https://brandguide.tamu.edu/assets/img/logos/tam-box-logo.png" alt = "Texas A&M Logo" />
+        <a href="https://www.tamu.edu/">Go to TAMU.edu</a>
+        <h2>Education
+        </h2>
         <p>Texas A&M University (TAMU), College Station, TX (May 2024 expected)</p>
         <p>Bachelor of Science in Environmental Studies (Geoscience) and GIS Minor.</p>
     </section>
