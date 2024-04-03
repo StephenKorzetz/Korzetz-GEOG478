@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Bar Chart with D3.js</title>
+    <!-- Include D3.js library -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Internal CSS for chart styling -->
+    <style>
+        #chart div {
+            font: 10px sans-serif;
+            background-color: steelblue;
+            text-align: right;
+            padding: 3px;
+            margin: 1px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Div container for the chart -->
+<div id="chart"></div>
+
+<script>
+    // Data for the bar chart
+    var data = [30, 86, 168, 281, 303, 365];
+
+    // Select the chart container using its ID
+    d3.select("#chart")
+        .selectAll("div")
+        .data(data) // Bind data to the selection
+        .enter() // For each data point, enter the document flow
+        .append("div") // Append a div for each data point
+        .style("width", function(d) { return d + "px"; }) // Set width of div to data value
+        .text(function(d) { return d; }); // Set text of div to data value
+</script>
+
+</body>
+</html>
